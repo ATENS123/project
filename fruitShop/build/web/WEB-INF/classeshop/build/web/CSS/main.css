@@ -1,0 +1,58 @@
+.fixed-image {
+  width: 200px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+.content_table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content_table thead tr{
+    background-color: green;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.content_table th,
+.content_table td{
+    padding: 12px 15px;
+}
+
+.content_table tbody tr{
+    border-bottom: 1px solid white;
+}
+
+.content_table tbody tr:nth-of-type(even){
+    background-color: white;
+}
+
+.content_table tbody tr:last-of-type{
+    border-bottom: 2px solid green;
+}
+
+.table-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.navbar .dropdown-menu {
+    min-width: 150px;
+    text-align: center;
+}
+
+.navbar .dropdown-menu img {
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.navbar .dropdown-menu .btn-link {
+    width: 100%;
+    text-align: center;
+}
